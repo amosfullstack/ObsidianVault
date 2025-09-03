@@ -1,1 +1,9 @@
-.obsidian/
+# KEEP these critical setting files
+!.obsidian/
+!.obsidian/community-plugins.json  # <-- The plugin LIST
+!.obsidian/appearance.json         # <-- Your theme settings
+!.obsidian/core-plugins.json       # <-- Core plugin settings
+!.obsidian/themes/                 # <-- Your downloaded theme files
+
+# IGNORE everything else in .obsidian (state, cache, etc.)
+.obsidian/*
